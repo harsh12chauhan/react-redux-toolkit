@@ -1,9 +1,10 @@
 import React from 'react'
 import CartCards from '../Components/CartCards'
 import product from '../db.json';
-
 const Cart = () => {
+
   const data = product;
+
   return (
     <div>
         {
